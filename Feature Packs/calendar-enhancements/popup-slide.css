@@ -1,0 +1,14 @@
+/* Hidden by default */
+.ha-ec-popup-wrapper {
+  opacity: 0 !important;
+  transform: translateY(24px) !important;
+  pointer-events: none !important;
+  transition: opacity .25s ease, transform .25s ease !important;
+}
+
+/* When Happy Addons opens it, it adds .ha-ec-popup-ready (you showed that) */
+.ha-ec-popup-wrapper.ha-ec-popup-ready {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+}
